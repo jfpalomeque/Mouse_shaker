@@ -1,5 +1,6 @@
 import pyautogui
 import time
+pyautogui.FAILSAFE = False
 
 print("Introduce number minutes the script will run. The script will start in 60 seconds")
 minutes = float(input())
@@ -14,5 +15,6 @@ t_end = time.time() + 60 * minutes
 print("starting")
 while time.time() < t_end:
     pyautogui.moveRel(0, 10)
-    time.sleep(30)
     pyautogui.moveRel(0, -10)
+    print("Shaking, shaking")
+    time.sleep(20)
