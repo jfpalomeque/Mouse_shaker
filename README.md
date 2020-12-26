@@ -4,6 +4,6 @@ During this new times of remote work, I was looking a way to avoid my computer t
 connection during my 1h lunch break.
 
 This is a quite simple script that asks the user for how many minutes it needs to run, and just shake
-the mouse cursor every 30 seconds.
+the mouse cursor every 20 seconds.
 
 Nothing more, nothing else.
